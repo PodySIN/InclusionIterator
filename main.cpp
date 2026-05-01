@@ -1,6 +1,5 @@
 #include <iostream>
 #include <tuple>
-#include <utility>
 
 template< class T >
 struct BiTree {
@@ -192,4 +191,3 @@ BiTree<T>* createNode(T val) {
   node->parent = nullptr;
   return node;
 }
-
